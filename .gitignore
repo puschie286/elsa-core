@@ -35,6 +35,7 @@ mono_crash.mem*.blob
 
 #Nuget packages folder
 packages/
+nupkg/
 
 #Ignore git-related files
 *.orig

@@ -4,12 +4,12 @@
     <Import Project="..\..\..\..\configureawait.props" />
 
     <PropertyGroup>
-        <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
         <Description>
             Elsa Workflow Settings is an optional part of Elsa Workflows.
             This package provides Entity Framework Core migrations for the PostgreSql database provider.
         </Description>
         <PackageTags>elsa, workflow settings, efcore, postgresql, npgsql</PackageTags>
+        <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
