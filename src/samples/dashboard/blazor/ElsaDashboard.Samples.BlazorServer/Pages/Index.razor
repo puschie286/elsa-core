@@ -1,3 +1,5 @@
 ﻿@page "/"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration _configuration;
 
-<WorkflowStudio ServerUrl="https://localhost:11000"/>
+<WorkflowDashboard ServerUrl="@_configuration["Elsa:Server:BaseUrl"]" />
